@@ -1,0 +1,206 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    border: 1px solid transparent;
+    background: url(imagens/capa.png),
+        url(imagens/ruido.png),
+        linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.barra-naveg {
+    width: 135px;
+    height: 30px;
+    display: block;
+    background: url(imagens/spotify.svg) no-repeat;
+    background-size: contain;
+    color: transparent;
+
+}
+
+nav.navbar-transparente {
+
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.navbar-brand {
+    padding-top: 10px;
+
+}
+
+.divisor {
+    width: 1px;
+    height: 16px;
+    color: white;
+    margin: 15px 10px;
+
+}
+
+.naveg:hover {
+    color: chartreuse;
+}
+
+.naveg:link {
+    color: white;
+}
+
+.naveg:visited {
+    color: white;
+}
+
+.naveg:active {
+    color: chartreuse;
+}
+
+#cor-letra-menu {
+    color: white;
+}
+
+.naveg {
+    color: white;
+}
+
+.servicos {
+
+    border: 1px solid transparent;
+    margin: 300px 0;
+    background: white;
+    margin-top: 100px;
+    padding: 5px 5px;
+}
+
+#recursos {
+    margin-top: -115px;
+    padding-left: 10px;
+
+
+
+}
+
+.rodape {
+
+    border: 1px solid black;
+    margin-top: 160px;
+    background-color: black;
+    padding-left: 40px;
+    padding-top: 47px;
+}
+
+.format-inicio {
+
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+
+}
+
+.format-letras2 {
+    font-size: 36px;
+    color: turquoise;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 750;
+
+}
+
+.format-paragrafo {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 120px;
+    letter-spacing: -8px;
+
+}
+
+.btn-default {
+    background: transparent;
+    color: white;
+    margin: 5px 25px;
+
+
+}
+
+.btn-default:hover {
+
+    background: white;
+    transition: 1s;
+}
+
+.btn-primary:hover {
+
+    background: #7c26f8;
+    transition: 1s;
+}
+
+.alinha-bottom {
+
+    margin: 30px 10px;
+    border-radius: 30px 30px;
+    -moz-border-radius: 30px 30px;
+    -webkit-border-radius: 30px 30px;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    text-align: center;
+
+}
+
+.rotaciona-imagem {
+
+    transform: rotate(38deg);
+    padding-left: 95px;
+    margin-top: -80px;
+    -webkit-transform: rotate(38deg);
+    -ms-transform: rotate(38deg);
+}
+
+.format-letras {
+
+    font-size: 36px;
+    font-weight: 750;
+    color: #7c26f8;
+}
+
+.estilo-links :link {
+    color: white;
+    text-decoration: none;
+}
+
+.estilo-links :visited {
+    color: white;
+    text-decoration: none;
+}
+
+.estilo-links :hover {
+    color: rgb(117, 221, 235);
+    text-decoration: none;
+}
+
+.cabecalho-rodape {
+    color: rgb(151, 150, 150);
+}
+
+.imag-circle {
+
+
+    padding: 5px 10px;
+
+}
+
+.imag-circle :hover {
+
+    background: white;
+    text-decoration: none;
+}
